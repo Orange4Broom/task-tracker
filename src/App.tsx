@@ -1,7 +1,18 @@
+import './style.scss';
+
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className="App">
+      <h1>Your Workspace</h1>
+
+      <div className="cards-wrapper">
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+      </div>
     </div>
   );
 }

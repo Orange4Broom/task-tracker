@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ecf0f1;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #2c3e50;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: 
+    repeat(auto-fit, minmax(300px, 300px)); 
+  grid-template-rows: repeat(auto-fit, minmax(300px, 300px));
+  grid-gap: 20px;
+  justify-content: center;
+  
+  max-width: auto;
+  height: 90vh;
+  margin: 0;
+  padding: 20px;
+  
+  background-color: lightblue;
+}
+
+.card {
+  background-color: #eee;
+  height: 250px;
+  padding: 20px;
+}
